@@ -28,35 +28,39 @@
       <a href="paginas/preço.html" title="Preço das Férias" class="btn btn-info">PREÇOS</a>
           </div>
 </div>
-<!--grid -->
+<!--espaço antes da grid-->
+<div class="alert alert-secondary" role="alert" align="center">
+  <h1>Vem descobrir Lisboa!</h1>
+</div>
+<!--Decidi colocar um carrousel para ficar mais engraçado. E retirei o card. -->
 <div align="center">
  <!-- 1ª Linha com 2 colunas e imagens--> 
 </div>
-<div class="container">
-  <div class="row">
-    <div class="col">
-    <!-- 1ª linha de cima-->
-    <!-- Imagens-->
-    <div class="card" style="width: 18rem;">
-  <img src="../imagens/3.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <p class="card-text"> Museu que poderá visitar em Lisboa, Portugal</p>
-  </div>
-</div> 
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../imagens/6.jpg" width="500px" height="500px" class="d-block w-100"   alt="...">
     </div>
-    <div class="col">
-    <!-- 2ª linha de cima-->
-    <!--Imagens-->
-    <div class="card" style="width: 18rem;">
-  <img src="../imagens/4.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <p class="card-text"> Lugar a visitar em Lisboa, Portugal</p>
-  </div>
-</div>  
+    <div class="carousel-item">
+      <img src="../imagens/7.jpg" width="500px" height="500px" class="d-block w-100"  alt="...">
     </div>
   </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Anterior</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Próximo</span>
+  </a>
+</div>
+<!-- Alterei o Titulo para ficar mais apelativo-->
 <div class="alert alert-light" role="alert" align="center">
- <h3>Escolha o seu plano de férias.</h3> 
+ <h3> Descobre aqui o que podes encontrar em Lisboa!</h3> 
 </div> 
 <!-- 2ª Linha com 3 colunas--> 
   <div class="row">
@@ -67,7 +71,7 @@
        <div class="card-header"> Lisboa </div>
         <div class="card-body text-secondary">
          <h5 class="card-title"> Onde se situa? </h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p class="card-text">Lisboa é a capital de Portugal, situada na costa.</p>
         </div>
       </div>
     </div>
@@ -78,7 +82,7 @@
   <div class="card-header">Lisboa</div>
   <div class="card-body text-secondary">
     <h5 class="card-title">Como lá chegar?</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <p class="card-text">Para chegar a Lisboa as melhores formas são de Autocarro, Comboio ou Avião. Existindo milhares de rotas disponiveis.</p>
   </div>  
     </div>
   </div>
@@ -89,7 +93,7 @@
   <div class="card-header">Lisboa</div>
   <div class="card-body text-secondary">
     <h5 class="card-title">O que visitar?</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <p class="card-text">Passear por Lisboa não precisa de ser necessáriamente de carro. Existem diversos sitio que pode visitar, a preços acessiveis ou até mesmo grátis. Lisboa tem desde Museus, a Estátuas, Parques e até mesmo ruas.</p>
   </div> 
     </div>
   </div>
@@ -106,7 +110,10 @@
   <div class="card-header">Lisboa </div>
   <div class="card-body text-secondary">
     <h5 class="card-title">Melhores Restaurantes?</h5>
-    <p class="card-text"> No centro de Portugal</p>
+    <p class="card-text"> Em Lisboa, um dos restaurantes que é considerado um dos melhores dá-se pelo nome de "FLOR-DE-LIS", mas existem muitos mais por descobrir.</p>
+    <div>
+        <a class="btn btn-primary" href="https://lisboacool.com/comer" role="button"> + Info </a>
+        </div>
   </div>
     </div>
   </div>
@@ -117,7 +124,12 @@
   <div class="card-header">Lisboa</div>
   <div class="card-body text-secondary">
     <h5 class="card-title">Os preços são acessiveis?</h5>
-    <p class="card-text">Existem imensas rotas disponiveis atualmente. Comboios, avião ou barcos.</p>
+    <p class="card-text">Os preços em Lisboa podem variar imenso, desde o mais caro até ao mais barato.</p>
+    <p> Existem imensos lugares onde se pode comprar o que precisar.</p>
+    <div>
+      <a class="btn btn-primary" href="https://lisboacool.com/comprar" role="button"> + Info </a>
+      
+    </div>
   </div>  
     </div>
   </div>
@@ -128,10 +140,10 @@
   <div class="card-header">Lisboa</div>
   <div class="card-body text-secondary">
     <h5 class="card-title">E estadias?</h5>
-        <p class="card-text">Lisboa é um pequeno mundo, tem de tudo um pouco. E imenso por visitar.</p>
-        <p class="card-text"> Para mais informações, confirme no link abaixo.</p>
+        <p class="card-text">Existem imensos sitios onde poderá se hospedar. Desdea hoteis, pensões, ou até mesmo apartamentos para arrendar.</p>
+        <p class="card-text"> Lugares com otimas condições e bastantes agradáveis. </p>
         <div>
-        <a class="btn btn-primary" href="http://www.cm-lisboa.pt/" role="button"> + Info </a>
+        <a class="btn btn-primary" href="https://lisboacool.com/dormir" role="button"> + Info </a>
         </div>
         
         
@@ -150,7 +162,7 @@
 <!-- rodapé(footer)-->
 <footer class="card-footer text-muted bg-dark" >
   <div align="center">
-    <h4> @Copy -- Nº 9130656 -- Mariana Francisco</h4>
+    <h2> @Copy -- Nº 9130656 -- Mariana Francisco</h2>
     
   </div>
 </footer>
